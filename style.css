@@ -139,3 +139,13 @@ body {
   height: 100%;
   margin-top: 15%;
 }
+
+.contact-page {
+  text-align: center;
+  color: #fff382;
+  margin: 30px;
+}
+
+.contact-page h1 {
+  font-size: 50px;
+}
