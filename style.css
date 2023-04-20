@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #005422;
+}
+
+.navbar {
+  margin-top: 20px;
+  background-color: transparent;
+  border: 4px solid #fff382;
+  border-radius: 50px;
+  margin: 30px 5vw;
+  /* background-color: blue; */
+}
+
+.logo {
+  color: #fff382;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.navbar button {
+  color: #fff382;
+  border: none;
+}
+
+.navbar ul li {
+  /* text-align: center; */
+}
+
+.navbar ul a {
+  color: #fff382;
+  font-weight: 600;
+  font-size: 35px;
+  margin-left: 40px;
+}
+
+.background-svg1 {
+  z-index: -1;
+  left: 0;
+  top: 10%;
+  position: absolute;
+}
+.first-page-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-content {
+  z-index: 1;
+  color: #fff382;
+  text-align: left;
+  margin: 20vh 10vw;
+  max-width: 600px;
+}
+
+@media only screen and (max-width: 600px) {
+  .text-content {
+    z-index: 1;
+    color: #fff382;
+    text-align: left;
+    margin: 10vh 16vw;
+  }
+
+  .computer-image {
+    visibility: hidden;
+  }
+
+  .linkedin-photo {
+    width: auto;
+    height: 100%;
+  }
+}
+
+.text-content h2 {
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.text-content h1 {
+  font-weight: 700;
+  font-size: 80px;
+}
+
+.text-content p {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.background-svg2 {
+  position: absolute;
+  z-index: -1;
+  right: 0%;
+}
+
+.about-page {
+  color: #fff382;
+  margin: 40vh 10vw;
+}
+
+.about-page h1 {
+  font-size: 60px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.about-page-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about-page-list {
+  max-width: 600px;
+}
+
+.about-page-list li {
+  list-style-image: url(./images/Star\ SVG\ 1.svg);
+  font-size: 48px;
+  font-weight: 700;
+  padding: 0px 0px 20px 0px;
+}
+
+.about-page-list p {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.linkedin-photo {
+  width: auto;
+  height: 100%;
+  margin-top: 15%;
+}
